@@ -1,15 +1,15 @@
 const Menu = [
     {
         label: "Introduction",
-        pathname: "/"
+        pathname: process.env.PUBLIC_URL + "/"
     },
     {
         label: "Hydrogen in the world",
-        pathname: "/map"
+        pathname: process.env.PUBLIC_URL + "/map"
     },
     {
         label: "House of the future",
-        pathname: "/house"
+        pathname: process.env.PUBLIC_URL + "/house"
     },
 ];
 
