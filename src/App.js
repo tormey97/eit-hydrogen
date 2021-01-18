@@ -1,22 +1,47 @@
-import logo from './logo.svg';
 import './App.css';
-import Typography from "@material-ui/core/Typography/Typography";
+import createMuiTheme from "@material-ui/core/styles/createMuiTheme";
+import { withNamespaces } from 'react-i18next';
+import secondaryColor from '@material-ui/core/colors/blueGrey';
+import primaryColor from '@material-ui/core/colors/lightBlue';
+import MuiThemeProvider from '@material-ui/core/styles/MuiThemeProvider';
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+} from "react-router-dom";
+import React from "react";
+import IntroductionPage from "./components/IntroductionPage";
+import NavBar from "./components/NavBar";
 
-function App() {
+const theme = createMuiTheme({
+    palette: {
+        primary: primaryColor,
+        secondary: secondaryColor,
+    },
+});
+
+function App({ t }) {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-
-          <Typography variant={"h3"}>
-              Hydrogen-based energy
-          </Typography>
-          <Typography variant={"h5"}>
-              Coming soon
-          </Typography>
-      </header>
+        <MuiThemeProvider theme={theme}>
+            <Router>
+            <NavBar/>
+                <Switch>
+                    <Route path={process.env.PUBLIC_URL + "/map"}>
+                        kart.
+                    </Route>
+                    <Route path={process.env.PUBLIC_URL + "/house"}>
+                        fint hus
+                    </Route>
+                    <Route path={process.env.PUBLIC_URL + "/"}>
+                        <IntroductionPage/>
+                    </Route>
+                </Switch>
+            </Router>
+        </MuiThemeProvider>
     </div>
   );
 }
 
-export default App;
+export default withNamespaces()(App);
