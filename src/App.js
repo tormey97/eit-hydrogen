@@ -13,6 +13,8 @@ import {
 import React from "react";
 import IntroductionPage from "./components/IntroductionPage";
 import NavBar from "./components/NavBar";
+import WorldMap from "./components/WorldMap";
+import makeStyles from "@material-ui/core/styles/makeStyles";
 
 const theme = createMuiTheme({
     palette: {
@@ -21,15 +23,24 @@ const theme = createMuiTheme({
     },
 });
 
+const useStyles = makeStyles(theme => ({
+    mapContainer: {
+        height: 500,
+        backgroundColor: "#000"
+    }
+}));
+
 function App({ t }) {
+    const classes = useStyles();
   return (
     <div className="App">
-        <MuiThemeProvider theme={theme}>
             <Router>
             <NavBar/>
                 <Switch>
                     <Route path={process.env.PUBLIC_URL + "/map"}>
-                        kart.
+                        <div className={classes.mapContainer}>
+                            <WorldMap/>
+                        </div>
                     </Route>
                     <Route path={process.env.PUBLIC_URL + "/house"}>
                         fint hus
@@ -39,7 +50,6 @@ function App({ t }) {
                     </Route>
                 </Switch>
             </Router>
-        </MuiThemeProvider>
     </div>
   );
 }
