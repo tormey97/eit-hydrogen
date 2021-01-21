@@ -73,13 +73,14 @@ let markers = [
         ]
     },
     {
-        position: [1,1],
-        title: "",
-        contents: "",
+        position: [37.174475, -8.331822],
+        title: "Project Green Flamingo",
+        contents: "Cooperative project between Portugal, The Netherlands, Germany and Denmark with an investment over €3.500 mill. The project aims at leveraging existing infrastructure through solar PV and wind to jumpstart green hydrogen markets within Europe. Main location in Algarve, Portugal due to excellent solar conditions. Expected to reduce CO2 emissions by 18,6 metric tones per year and create over 5.000 jobs. ",
         type: [
             {"year": 2010, "type": markerTypes.project}
         ]
     },
+    /*
     {
         position: [1,1],
         title: "",
@@ -110,7 +111,7 @@ let markers = [
         type: [
             {"year": 2010, "type": markerTypes.project}
         ]
-    },
+    },*/
 ];
 
 /*
