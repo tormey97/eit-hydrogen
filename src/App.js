@@ -25,7 +25,7 @@ const theme = createMuiTheme({
 
 const useStyles = makeStyles(theme => ({
     mapContainer: {
-        height: 500,
+        height: "480px",
         backgroundColor: "#000"
     }
 }));

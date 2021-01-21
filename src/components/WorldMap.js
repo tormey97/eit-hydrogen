@@ -4,6 +4,9 @@ import {MapContainer, Marker, Popup, TileLayer} from "react-leaflet";
 import MarkerClusterGroup from "react-leaflet-markercluster/src/react-leaflet-markercluster";
 import MapDialog from "./MapDialog";
 import Typography from "@material-ui/core/Typography/Typography";
+import Slider from "@material-ui/core/Slider/Slider";
+import Paper from "@material-ui/core/Paper/Paper";
+import makeStyles from "@material-ui/core/styles/makeStyles";
 
 let markerTypes = {
     "project": {
@@ -24,11 +27,17 @@ let markers = [
         position: [52.296498, 7.932999],
         title: "Green Fertilizer Project",
         contents: "Cooperation between Nel Hydrogen and Yara to produce hydrogen from renewable sources for usage in fertilizer production or green ammonia. Announced start date in 2022. ",
+        type: [
+            {"year": 2014, "type": markerTypes.project}
+        ]
     },
     {
         position: [51.143782, 4.897054],
         title: "Operation Silver Frog",
         contents: "Operation Silver Frog launched. An ambitious project between several European businesses. Aims at utilizing solar PV and water electrolysis to produce and transport renewable hydrogen to decarbonize the industry in EU. Expected to create 6000 jobs and produce 800 kilotons of renewable hydrogen per year, mitigating 800,000 metric tons of CO2 per year. Total costs are projected at €12-15 billion.",
+        type: [
+            {"year": 2014, "type": markerTypes.project}
+        ]
     },
     {
         position: [53.793244, -1.428281],
@@ -42,11 +51,17 @@ let markers = [
         position: [49.107303, 0.276688],
         title: "Production of hydrogen through water electrolysis",
         contents: "H2V Normandy. Project launched by H2V industry to produce hydrogen through water electrolysis in Normandy. Each plant has an investment cost of €500 million and will generate 200 jobs, with the first project launching in 2023. By 2030 the industry developed by H2V as a whole will create 12,000 jobs in France with an €3.5 billion investment.",
+        type: [
+            {"year": 2014, "type": markerTypes.project}
+        ]
     },
     {
         position: [48.515865, 9.055238],
         title: "Launch of hydrogen fueled trains",
         contents: "Start of hydrogen fueled trains in Baden Wuerttemberg. The trains will be fueled withing fifteen minutes with a top speed of 160 km/h and a range of around 600 kilometers, operating between Tuebingen, Horb and Pforzheim. ",
+        type: [
+            {"year": 2014, "type": markerTypes.project}
+        ]
     },
     {
         position: [38.575478, -121.492440],
@@ -126,9 +141,33 @@ FORMAT FOR NYE ELEMENTER
     ]
 },
  */
+
+let useStyles = makeStyles(theme => ({
+    "sliderContainer": {
+        padding: "5px 35px 0px 35px", //TODO make this better
+        zIndex: 10000,
+        width: "30%",
+        position: "absolute",
+        bottom: 10,
+        left: "35%",
+        height: 40,
+    },
+}));
+
 function WorldMap({t}) {
     const [activeMarker, setActiveMarker] = React.useState(0);
     const [dialogOpen, setDialogOpen] = React.useState(false);
+    const DEFAULT_YEAR = 2021;
+    const [currentYear, setCurrentYear] = React.useState(DEFAULT_YEAR);
+    const classes = useStyles();
+    const handleSliderChange = (e, newYear) => {
+        setCurrentYear(newYear);
+    };
+
+    const getMarkerType = (marker) => {
+        return marker.type.find(item => item.year <= currentYear);
+    };
+
     return (
         <>
             <MapDialog dialogOpen={dialogOpen} setDialogOpen={setDialogOpen} activeMarker={activeMarker} markerData={markers[activeMarker]}/>
@@ -140,7 +179,10 @@ function WorldMap({t}) {
                 <MarkerClusterGroup showCoverageOnHover={false}>
                     {
                         markers.map((marker, i) =>
-                            (<>
+                        {
+                            // TODO define icon based on markertype
+                            if (getMarkerType(marker) === undefined) { return (<></>)}
+                            return (<>
                                 <Marker eventHandlers={{
                                     click: (e) => {
                                         setActiveMarker(i);
@@ -164,10 +206,23 @@ function WorldMap({t}) {
                                         </Typography>
                                     </Popup>
                                 </Marker>
-                            </>)
+                            </>)}
                         )
                     }
                 </MarkerClusterGroup>
+                <Paper className={classes.sliderContainer}>
+                    <Typography variant={"caption2"}>Choose year</Typography>
+                    <Slider
+                        defaultValue={2021}
+                        aria-labelledby="discrete-slider-small-steps"
+                        step={1}
+                        marks
+                        min={1950}
+                        max={2050}
+                        valueLabelDisplay="auto"
+                        onChange={handleSliderChange}
+                    />
+                </Paper>
             </MapContainer>
         </>
     )

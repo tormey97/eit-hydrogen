@@ -68,15 +68,15 @@ function IntroductionPage({t}) {
             <img src={electrolysis2} className={classes.animation}/>
 
             <Typography>
-            In the electrolysis, water molecules are split up into hydrogen gas (H2) and Oxygen gas (O2) with the help
-            of electricity from the power source. This process has no CO2-emissions, which makes it a desirable reaction.
+                In the electrolysis, water molecules are split up into hydrogen gas (H<sub>2</sub>) and Oxygen gas (O<sub>2</sub>) with the help
+                of electricity from the power source. This process has no CO<sub>2</sub>-emissions, which makes it a desirable reaction.
             However, the process is not energy efficient with a loss of 30% of the energy from power to hydrogen. To
-            produce 1kg of H2, the energy needed is 50kWh. The 1kg of H2 produced can be used as fuel for a car travelling
+                produce 1kg of H<sub>2</sub>, the energy needed is 50kWh. The 1kg of H<sub>2</sub> produced can be used as fuel for a car travelling
             a distance of about 100km, while the 50kWh would get you a distance of about 333 k m with an electric car.
             </Typography>
             <img src={electrolysis3} className={classes.animation}/>
             <Typography>
-            The H2 gas produced from the electrolysis is captured. The gas could either be stored in gas tanks and
+                The H<sub>2</sub> gas produced from the electrolysis is captured. The gas could either be stored in gas tanks and
             transferred by trucks, ships etc or it could be transferred through existing gas pipes underground. The
             gas tanks have to be under high pressure in order to be stored and therefore may pose a danger.
             </Typography>
@@ -85,7 +85,7 @@ function IntroductionPage({t}) {
             </Typography>
             <img src={methane1} className={classes.animation}/>
             <Typography>
-            Methane, CH4, is captured from the oil and gas industry.
+                Methane, CH<sub>4</sub>, is captured from the oil and gas industry.
             </Typography>
             <img src={methane2} className={classes.animation}/>
             <Typography>
@@ -97,7 +97,7 @@ function IntroductionPage({t}) {
             </Typography>
             <img src={methane4} className={classes.animation}/>
             <Typography>
-            CH4 + H2O = CO + 3H2 is the balanced reaction which creates hydrogen gas. Carbonmonoxide, CO, is a biproduct from this reaction.
+                CH<sub>4</sub> + H<sub>2</sub>O = CO + 3H<sub>2</sub> is the balanced reaction which creates hydrogen gas. Carbonmonoxide, CO, is a biproduct from this reaction.
             </Typography>
             <img src={methane5} className={classes.animation}/>
             <Typography>
@@ -105,7 +105,7 @@ function IntroductionPage({t}) {
             </Typography>
             <img src={methane6} className={classes.animation}/>
             <Typography>
-            This makes the molekyles react, and the products are hydrogen and carbondioxide: CO + H2O = CO2 + H2
+                This makes the molekyles react, and the products are hydrogen and carbondioxide: CO + H<sub>2</sub>O = CO<sub>2</sub> + H<sub>2</sub>
             </Typography>
 
         </div>
