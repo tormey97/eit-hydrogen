@@ -1,23 +1,31 @@
 {
   "files": {
     "main.css": "/eit-hydrogen/static/css/main.5c7b6f2c.chunk.css",
-    "main.js": "/eit-hydrogen/static/js/main.8c89e267.chunk.js",
-    "main.js.map": "/eit-hydrogen/static/js/main.8c89e267.chunk.js.map",
-    "runtime-main.js": "/eit-hydrogen/static/js/runtime-main.a2b51be6.js",
-    "runtime-main.js.map": "/eit-hydrogen/static/js/runtime-main.a2b51be6.js.map",
-    "static/js/2.715742ed.chunk.js": "/eit-hydrogen/static/js/2.715742ed.chunk.js",
-    "static/js/2.715742ed.chunk.js.map": "/eit-hydrogen/static/js/2.715742ed.chunk.js.map",
-    "static/js/3.a65717b9.chunk.js": "/eit-hydrogen/static/js/3.a65717b9.chunk.js",
-    "static/js/3.a65717b9.chunk.js.map": "/eit-hydrogen/static/js/3.a65717b9.chunk.js.map",
+    "main.js": "/eit-hydrogen/static/js/main.d695e043.chunk.js",
+    "main.js.map": "/eit-hydrogen/static/js/main.d695e043.chunk.js.map",
+    "runtime-main.js": "/eit-hydrogen/static/js/runtime-main.191dc2f6.js",
+    "runtime-main.js.map": "/eit-hydrogen/static/js/runtime-main.191dc2f6.js.map",
+    "static/js/2.e47c8866.chunk.js": "/eit-hydrogen/static/js/2.e47c8866.chunk.js",
+    "static/js/2.e47c8866.chunk.js.map": "/eit-hydrogen/static/js/2.e47c8866.chunk.js.map",
+    "static/js/3.b7de2f27.chunk.js": "/eit-hydrogen/static/js/3.b7de2f27.chunk.js",
+    "static/js/3.b7de2f27.chunk.js.map": "/eit-hydrogen/static/js/3.b7de2f27.chunk.js.map",
     "index.html": "/eit-hydrogen/index.html",
     "static/css/main.5c7b6f2c.chunk.css.map": "/eit-hydrogen/static/css/main.5c7b6f2c.chunk.css.map",
-    "static/js/2.715742ed.chunk.js.LICENSE.txt": "/eit-hydrogen/static/js/2.715742ed.chunk.js.LICENSE.txt",
-    "static/media/animation_ch4_into_barrel.397e245c.gif": "/eit-hydrogen/static/media/animation_ch4_into_barrel.397e245c.gif"
+    "static/js/2.e47c8866.chunk.js.LICENSE.txt": "/eit-hydrogen/static/js/2.e47c8866.chunk.js.LICENSE.txt",
+    "static/media/electrolysis1.168e1334.gif": "/eit-hydrogen/static/media/electrolysis1.168e1334.gif",
+    "static/media/electrolysis2.68bbd72d.gif": "/eit-hydrogen/static/media/electrolysis2.68bbd72d.gif",
+    "static/media/electrolysis3.22c40d2d.gif": "/eit-hydrogen/static/media/electrolysis3.22c40d2d.gif",
+    "static/media/methane1.ab60928f.gif": "/eit-hydrogen/static/media/methane1.ab60928f.gif",
+    "static/media/methane2.17486e0d.gif": "/eit-hydrogen/static/media/methane2.17486e0d.gif",
+    "static/media/methane3.c24f0b48.gif": "/eit-hydrogen/static/media/methane3.c24f0b48.gif",
+    "static/media/methane4.37310d4e.gif": "/eit-hydrogen/static/media/methane4.37310d4e.gif",
+    "static/media/methane5.457bfaa2.gif": "/eit-hydrogen/static/media/methane5.457bfaa2.gif",
+    "static/media/methane6.56fbc9d9.gif": "/eit-hydrogen/static/media/methane6.56fbc9d9.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.a2b51be6.js",
-    "static/js/2.715742ed.chunk.js",
+    "static/js/runtime-main.191dc2f6.js",
+    "static/js/2.e47c8866.chunk.js",
     "static/css/main.5c7b6f2c.chunk.css",
-    "static/js/main.8c89e267.chunk.js"
+    "static/js/main.d695e043.chunk.js"
   ]
 }
