@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/eit-hydrogen/static/css/main.5c7b6f2c.chunk.css",
-    "main.js": "/eit-hydrogen/static/js/main.15c55327.chunk.js",
-    "main.js.map": "/eit-hydrogen/static/js/main.15c55327.chunk.js.map",
+    "main.js": "/eit-hydrogen/static/js/main.210c1107.chunk.js",
+    "main.js.map": "/eit-hydrogen/static/js/main.210c1107.chunk.js.map",
     "runtime-main.js": "/eit-hydrogen/static/js/runtime-main.191dc2f6.js",
     "runtime-main.js.map": "/eit-hydrogen/static/js/runtime-main.191dc2f6.js.map",
     "static/js/2.e47c8866.chunk.js": "/eit-hydrogen/static/js/2.e47c8866.chunk.js",
@@ -19,13 +19,13 @@
     "static/media/methane2.17486e0d.gif": "/eit-hydrogen/static/media/methane2.17486e0d.gif",
     "static/media/methane3.c24f0b48.gif": "/eit-hydrogen/static/media/methane3.c24f0b48.gif",
     "static/media/methane4.37310d4e.gif": "/eit-hydrogen/static/media/methane4.37310d4e.gif",
-    "static/media/methane5.457bfaa2.gif": "/eit-hydrogen/static/media/methane5.457bfaa2.gif",
+    "static/media/methane5.6f31c70c.gif": "/eit-hydrogen/static/media/methane5.6f31c70c.gif",
     "static/media/methane6.56fbc9d9.gif": "/eit-hydrogen/static/media/methane6.56fbc9d9.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.191dc2f6.js",
     "static/js/2.e47c8866.chunk.js",
     "static/css/main.5c7b6f2c.chunk.css",
-    "static/js/main.15c55327.chunk.js"
+    "static/js/main.210c1107.chunk.js"
   ]
 }
