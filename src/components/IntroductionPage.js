@@ -38,7 +38,7 @@ function IntroductionPage({t}) {
                 The Hydrogen Atom
             </Typography>
             <Typography gutterBottom>
-                Hydrogen is the first atom in the periodic system. It is the lightest....
+                Hydrogen is the first atom appearing in the periodic system. Hence, the lightest of the elements. The figure below shows the composition of hydrogen. It consists of one proton and an unpaired electron. As a result of the unpaired electron, the hydrogen atom is rarely found because the unpaired electron aspires to pair up with an additional electron. 
             </Typography>
             <Typography variant={"h6"} gutterBottom>
                 Hydrogen as an Energy Carrier
