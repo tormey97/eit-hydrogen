@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/eit-hydrogen/static/css/main.5c7b6f2c.chunk.css",
-    "main.js": "/eit-hydrogen/static/js/main.f3b8e6b5.chunk.js",
-    "main.js.map": "/eit-hydrogen/static/js/main.f3b8e6b5.chunk.js.map",
+    "main.js": "/eit-hydrogen/static/js/main.a723fdc6.chunk.js",
+    "main.js.map": "/eit-hydrogen/static/js/main.a723fdc6.chunk.js.map",
     "runtime-main.js": "/eit-hydrogen/static/js/runtime-main.0bfd3fe0.js",
     "runtime-main.js.map": "/eit-hydrogen/static/js/runtime-main.0bfd3fe0.js.map",
-    "static/js/2.788a1d1d.chunk.js": "/eit-hydrogen/static/js/2.788a1d1d.chunk.js",
-    "static/js/2.788a1d1d.chunk.js.map": "/eit-hydrogen/static/js/2.788a1d1d.chunk.js.map",
+    "static/js/2.cb5c7e50.chunk.js": "/eit-hydrogen/static/js/2.cb5c7e50.chunk.js",
+    "static/js/2.cb5c7e50.chunk.js.map": "/eit-hydrogen/static/js/2.cb5c7e50.chunk.js.map",
     "static/js/3.33fcc3e0.chunk.js": "/eit-hydrogen/static/js/3.33fcc3e0.chunk.js",
     "static/js/3.33fcc3e0.chunk.js.map": "/eit-hydrogen/static/js/3.33fcc3e0.chunk.js.map",
     "index.html": "/eit-hydrogen/index.html",
     "static/css/main.5c7b6f2c.chunk.css.map": "/eit-hydrogen/static/css/main.5c7b6f2c.chunk.css.map",
-    "static/js/2.788a1d1d.chunk.js.LICENSE.txt": "/eit-hydrogen/static/js/2.788a1d1d.chunk.js.LICENSE.txt",
+    "static/js/2.cb5c7e50.chunk.js.LICENSE.txt": "/eit-hydrogen/static/js/2.cb5c7e50.chunk.js.LICENSE.txt",
     "static/media/bluedanubegreenhydro.0c853d0a.PNG": "/eit-hydrogen/static/media/bluedanubegreenhydro.0c853d0a.PNG",
     "static/media/electrolysis1.168e1334.gif": "/eit-hydrogen/static/media/electrolysis1.168e1334.gif",
     "static/media/electrolysis2.68bbd72d.gif": "/eit-hydrogen/static/media/electrolysis2.68bbd72d.gif",
@@ -26,8 +26,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.0bfd3fe0.js",
-    "static/js/2.788a1d1d.chunk.js",
+    "static/js/2.cb5c7e50.chunk.js",
     "static/css/main.5c7b6f2c.chunk.css",
-    "static/js/main.f3b8e6b5.chunk.js"
+    "static/js/main.a723fdc6.chunk.js"
   ]
 }
