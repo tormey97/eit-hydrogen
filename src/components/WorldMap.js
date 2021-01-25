@@ -7,6 +7,9 @@ import Typography from "@material-ui/core/Typography/Typography";
 import Slider from "@material-ui/core/Slider/Slider";
 import Paper from "@material-ui/core/Paper/Paper";
 import makeStyles from "@material-ui/core/styles/makeStyles";
+import green_flamingo from "../assets/map/greenflamingo.PNG"
+import blue_danube from "../assets/map/bluedanubegreenhydro.PNG"
+
 
 let markerTypes = {
 
@@ -22,7 +25,9 @@ let markerTypes = {
         name: "Scientific advancement",
         color: "#3f68ff",
     }
-}
+};
+
+
 let markers = [
     {
         position: [52.296498, 7.932999],
@@ -91,7 +96,44 @@ let markers = [
     {
         position: [37.174475, -8.331822],
         title: "Project Green Flamingo",
-        contents: "Cooperative project between Portugal, The Netherlands, Germany and Denmark with an investment over €3.500 mill. The project aims at leveraging existing infrastructure through solar PV and wind to jumpstart green hydrogen markets within Europe. Main location in Algarve, Portugal due to excellent solar conditions. Expected to reduce CO2 emissions by 18,6 metric tones per year and create over 5.000 jobs. ",
+        contents: (<>Cooperative project between Portugal, The Netherlands, Germany and Denmark with an investment
+            over €3.500 mill. The project aims at leveraging existing infrastructure through solar PV and wind to
+            jumpstart green hydrogen markets within Europe. Main location in Algarve, Portugal due to excellent solar
+            conditions. Expected to reduce CO2 emissions by 18,6 metric tones per year and create over 5.000 jobs.
+            <br/> <img src={green_flamingo}/></>),
+        type: [
+            {"year": 2010, "type": markerTypes.project}
+        ]
+    },
+    {
+
+        position: [46.807,15.890],
+
+        title: " Green Hydrogen @ Blue Danube",
+
+        contents: "A multilateral cooperation between nine countries in South-East Europe with the aim of producing green hydrogen in a large scale using wind and solar energy. The project aims at establishing a trans-European value chain and includes an €5,850 investment, a 3,200,200 tones reduction in CO2 per year and 5,000 new jobs, including 50,000 jobs secured for the future. ",
+        type: [
+            {"year": 2010, "type": markerTypes.project}
+        ]
+    },
+    {
+
+        position: [59.89, 10.57],
+
+        title: "Hydrogen Fueling Station",
+
+        contents: "Hydrogen Fueling station at Høvik outside of Oslo with one dispenser.",
+        type: [
+            {"year": 2010, "type": markerTypes.project}
+        ]
+    },
+    {
+
+        position: [59.82, 10.796],
+
+        title: "Hydrogen Fueling Station",
+
+        contents: "Hydrogen fueling station at Rosenholm in Oslo. The fueling station is used by Unibus for refueling Ruters hydrogen buses who are operating in Oslo.",
         type: [
             {"year": 2010, "type": markerTypes.project}
         ]
