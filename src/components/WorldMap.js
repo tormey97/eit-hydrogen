@@ -138,16 +138,19 @@ let markers = [
             {"year": 2010, "type": markerTypes.project}
         ]
     },
-    /*
+
+
+    /*DUMMY PROJECTS*/
+
     {
-        position: [1,1],
+        position: [-30.3,22.1],
         title: "",
         contents: "",
         type: [
-            {"year": 2010, "type": markerTypes.project}
+            {"year": 208, "type": markerTypes.project}
         ]
     },{
-        position: [1,1],
+        position: [-30.3,23.05],
         title: "",
         contents: "",
         type: [
@@ -155,7 +158,7 @@ let markers = [
         ]
     },
     {
-        position: [1,1],
+        position: [-31.2,22],
         title: "",
         contents: "",
         type: [
@@ -163,13 +166,66 @@ let markers = [
         ]
     },
     {
-        position: [1,1],
+        position: [-32.3,22.1],
         title: "",
         contents: "",
         type: [
             {"year": 2010, "type": markerTypes.project}
         ]
-    },*/
+    },
+
+
+    {
+        position: [30.3,21.1],
+        title: "",
+        contents: "",
+        type: [
+            {"year": 208, "type": markerTypes.project}
+        ]
+    },
+    {
+        position: [32.1,22.05],
+        title: "",
+        contents: "",
+        type: [
+            {"year": 2010, "type": markerTypes.project}
+        ]
+    },
+
+    /*39.9042° N, 116.4074*/
+
+    {
+        position: [38.9,116.4],
+        title: "",
+        contents: "",
+        type: [
+            {"year": 2010, "type": markerTypes.project}
+        ]
+    },
+    {
+        position: [40.81,116.6],
+        title: "",
+        contents: "",
+        type: [
+            {"year": 2010, "type": markerTypes.project}
+        ]
+    },
+    {
+        position: [39.92,116.43],
+        title: "",
+        contents: "",
+        type: [
+            {"year": 2010, "type": markerTypes.project}
+        ]
+    },
+    {
+        position: [39.8,116.35],
+        title: "",
+        contents: "",
+        type: [
+            {"year": 2010, "type": markerTypes.project}
+        ]
+    },
 ];
 
 /*

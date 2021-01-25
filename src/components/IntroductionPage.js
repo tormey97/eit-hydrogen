@@ -129,7 +129,8 @@ function IntroductionPage({t}) {
             </Typography>
             <Divider/>
             <Typography gutterBottom>
-                Hydrogen is produced using various methods. Here we will give an introduction to the most commonly used techniques.
+                Hydrogen is produced using various methods. Here we will give an introduction to the most commonly used techniques. Scroll through the pages
+                in the boxes below to see the step-by-step walkthrough of each process.
             </Typography>
 
             <Paper className={classes.animationContainer}>
