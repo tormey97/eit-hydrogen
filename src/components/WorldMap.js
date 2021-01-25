@@ -9,6 +9,7 @@ import Paper from "@material-ui/core/Paper/Paper";
 import makeStyles from "@material-ui/core/styles/makeStyles";
 
 let markerTypes = {
+
     "project": {
         name: "Project under development",
         color: "#ff8a3a" // TODO use material UI colors
