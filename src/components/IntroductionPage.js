@@ -44,7 +44,7 @@ const electrolysisPages = [
             of electricity from the power source. This process has no CO<sub>2</sub>-emissions, which makes it a desirable reaction.
             However, the process is not energy efficient with a loss of 30% of the energy from power to hydrogen. To
             produce 1kg of H<sub>2</sub>, the energy needed is 50kWh. The 1kg of H<sub>2</sub> produced can be used as fuel for a car travelling
-            a distance of about 100km, while the 50kWh would get you a distance of about 333 k m with an electric car.</>),
+            a distance of about 100km, while the 50kWh would get you a distance of about 333 km with an electric car.</>),
     },
     {
         "image": electrolysis3,
@@ -95,11 +95,16 @@ function IntroductionPage({t}) {
                 The Hydrogen Atom
             </Typography>
             <Typography gutterBottom>
-                Hydrogen is the first atom appearing in the periodic system. Hence, the lightest of the elements. The figure below shows the composition of hydrogen. It consists of one proton and an unpaired electron. As a result of the unpaired electron, the hydrogen atom is rarely found because the unpaired electron aspires to pair up with an additional electron.
+                Hydrogen is the first atom appearing in the periodic system. Hence, the lightest of the elements.
+                The figure below shows the composition of hydrogen. It consists of one proton and an unpaired electron.
+                As a result of the unpaired electron, the hydrogen atom is rarely found because the unpaired electron
+                aspires to pair up with an additional electron.
             </Typography>
-<Typography>
-Two hydrogen atoms may form the hydrogen molecule H<sub>2</sub> as seen below. H<sub>2</sub>is a gas under standard temperature and pressure, and is the smallest molecule found in the universe. Because of its light weight, it is a desirable in terms of transport.
-</Typography>
+            <Typography>
+            Two hydrogen atoms may form the hydrogen molecule H<sub>2</sub> as seen below. H<sub>2</sub>is a gas under
+                standard temperature and pressure, and is the smallest molecule found in the universe. Because of its light
+                weight, it is a desirable in terms of transport.
+            </Typography>
 
 
             <Typography variant={"h6"} gutterBottom>
@@ -107,7 +112,14 @@ Two hydrogen atoms may form the hydrogen molecule H<sub>2</sub> as seen below. H
             </Typography>
             <Typography gutterBottom>
                An energy carrier is an energy resource that can transport energy from one place to another.
-It requires more energy to produce hydrogen than what can be used in terms of converting it back to useful energy. However, the energy content per unit weight of the hydrogen makes it desirable in several aspects. Today’s research show that hydrogen can be used as an energy carrier in several sectors including transport, energy storage, industry, power generation and heating. There are three ways in which hydrogen can be stored. As a compressed gas in high pressure tanks, as a liquid in tanks or cooling unit (below -253C) or it can be stored in solid form by reacting with metals or other chemical compounds. The largest concern with the gas is the fire and explosion hazards associated with it. The gas is tasteless, odorless and nontoxic and makes it hard to detect leaks.
+                It requires more energy to produce hydrogen than what can be used in terms of converting it back to useful energy.
+                However, the energy content per unit weight of the hydrogen makes it desirable in several aspects.
+                Today’s research show that hydrogen can be used as an energy carrier in several sectors including transport,
+                energy storage, industry, power generation and heating. There are three ways in which hydrogen can be stored.
+                As a compressed gas in high pressure tanks, as a liquid in tanks or cooling unit (below -253C) or it
+                can be stored in solid form by reacting with metals or other chemical compounds. The largest concern
+                with the gas is the fire and explosion hazards associated with it. The gas is tasteless, odorless and
+                nontoxic and makes it hard to detect leaks.
 
 
             </Typography>
