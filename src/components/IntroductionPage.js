@@ -40,6 +40,11 @@ function IntroductionPage({t}) {
             <Typography gutterBottom>
                 Hydrogen is the first atom appearing in the periodic system. Hence, the lightest of the elements. The figure below shows the composition of hydrogen. It consists of one proton and an unpaired electron. As a result of the unpaired electron, the hydrogen atom is rarely found because the unpaired electron aspires to pair up with an additional electron. 
             </Typography>
+<Typography> 
+Two hydrogen atoms may form the hydrogen molecule H<sub>2</sub> as seen below. H<sub>2</sub>is a gas under standard temperature and pressure, and is the smallest molecule found in the universe. Because of its light weight, it is a desirable in terms of transport. 
+</Typography>
+
+
             <Typography variant={"h6"} gutterBottom>
                 Hydrogen as an Energy Carrier
             </Typography>
@@ -55,7 +60,7 @@ function IntroductionPage({t}) {
                 Production of Hydrogen
             </Typography>
             <Typography>
-                Hydrogen is produced using various methods. Here we will give an introduction to the most commonly used techniques.
+                Hydrogen gas is not naturally occurring in the surroundings, but must be separated from several other substances, like CH<sub>4</sub> and H<sub>2</sub>O. Consequently, this process requires energy. In the two next sections, the two most common and environmentally friendly processes of extracting H<sub>2</sub> from other substances is presented. Electrolysis, also referred to as power-to-gas is one of the methods and is being researched further with the addition of renewable energy sources. Today, natural gas reformation is the most widely used method. It is estimated that about 48% of the hydrogen production is carried out by this process and the possibility of capturing the carbon, makes this an environmentally friendly method. 
             </Typography>
             <Typography variant={"h6"} gutterBottom>
                 Electrolysis
