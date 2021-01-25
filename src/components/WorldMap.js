@@ -90,7 +90,7 @@ let markers = [
         title: "Nationwide investments",
         contents: "Approximately $80 million USD invested in hydrogen related research and development (R&D) in 2017. $30 million USD invested in fuel cells, $40 million USD invested in hydrogen fueling stations and $10 million USD invested in production, transport, and storage. ",
         type: [
-            {"year": 2010, "type": markerTypes.project}
+            {"year": 2011, "type": markerTypes.project}
         ]
     },
     {
@@ -102,7 +102,7 @@ let markers = [
             conditions. Expected to reduce CO2 emissions by 18,6 metric tones per year and create over 5.000 jobs.
             <br/> <img src={green_flamingo}/></>),
         type: [
-            {"year": 2010, "type": markerTypes.project}
+            {"year": 2012, "type": markerTypes.project}
         ]
     },
     {
@@ -113,7 +113,7 @@ let markers = [
 
         contents: "A multilateral cooperation between nine countries in South-East Europe with the aim of producing green hydrogen in a large scale using wind and solar energy. The project aims at establishing a trans-European value chain and includes an €5,850 investment, a 3,200,200 tones reduction in CO2 per year and 5,000 new jobs, including 50,000 jobs secured for the future. ",
         type: [
-            {"year": 2010, "type": markerTypes.project}
+            {"year": 2015, "type": markerTypes.project}
         ]
     },
     {
@@ -124,7 +124,7 @@ let markers = [
 
         contents: "Hydrogen Fueling station at Høvik outside of Oslo with one dispenser.",
         type: [
-            {"year": 2010, "type": markerTypes.project}
+            {"year": 2016, "type": markerTypes.project}
         ]
     },
     {
@@ -135,7 +135,7 @@ let markers = [
 
         contents: "Hydrogen fueling station at Rosenholm in Oslo. The fueling station is used by Unibus for refueling Ruters hydrogen buses who are operating in Oslo.",
         type: [
-            {"year": 2010, "type": markerTypes.project}
+            {"year": 2017, "type": markerTypes.project}
         ]
     },
 
@@ -147,14 +147,14 @@ let markers = [
         title: "",
         contents: "",
         type: [
-            {"year": 208, "type": markerTypes.project}
+            {"year": 2018, "type": markerTypes.project}
         ]
     },{
         position: [-30.3,23.05],
         title: "",
         contents: "",
         type: [
-            {"year": 2010, "type": markerTypes.project}
+            {"year": 2013, "type": markerTypes.project}
         ]
     },
     {
@@ -162,7 +162,7 @@ let markers = [
         title: "",
         contents: "",
         type: [
-            {"year": 2010, "type": markerTypes.project}
+            {"year": 2012, "type": markerTypes.project}
         ]
     },
     {
@@ -180,7 +180,7 @@ let markers = [
         title: "",
         contents: "",
         type: [
-            {"year": 208, "type": markerTypes.project}
+            {"year": 2008, "type": markerTypes.project}
         ]
     },
     {
@@ -188,7 +188,7 @@ let markers = [
         title: "",
         contents: "",
         type: [
-            {"year": 2010, "type": markerTypes.project}
+            {"year": 2007, "type": markerTypes.project}
         ]
     },
 
@@ -199,7 +199,7 @@ let markers = [
         title: "",
         contents: "",
         type: [
-            {"year": 2010, "type": markerTypes.project}
+            {"year": 2025, "type": markerTypes.project}
         ]
     },
     {
@@ -207,7 +207,7 @@ let markers = [
         title: "",
         contents: "",
         type: [
-            {"year": 2010, "type": markerTypes.project}
+            {"year": 2019, "type": markerTypes.project}
         ]
     },
     {
@@ -215,7 +215,7 @@ let markers = [
         title: "",
         contents: "",
         type: [
-            {"year": 2010, "type": markerTypes.project}
+            {"year": 2004, "type": markerTypes.project}
         ]
     },
     {
@@ -223,9 +223,83 @@ let markers = [
         title: "",
         contents: "",
         type: [
-            {"year": 2010, "type": markerTypes.project}
+            {"year": 2000, "type": markerTypes.project}
         ]
     },
+
+    {
+        position: [31.8,116.35],
+        title: "",
+        contents: "",
+        type: [
+            {"year": 2004, "type": markerTypes.project}
+        ]
+    },
+
+
+    {
+        position: [33.8,115.35],
+        title: "",
+        contents: "",
+        type: [
+            {"year": 2000, "type": markerTypes.project}
+        ]
+    },
+
+    {
+        position: [37.575478, -115.492440],
+        title: "",
+        contents: "",
+        type: [
+            {"year": 2006, "type": markerTypes.project}
+        ]
+    },
+
+    {
+        position: [37.575478, -115.492440],
+        title: "",
+        contents: "",
+        type: [
+            {"year": 2006, "type": markerTypes.project}
+        ]
+    },
+
+    {
+        position: [25.575478, -105.492440],
+        title: "",
+        contents: "",
+        type: [
+            {"year": 2006, "type": markerTypes.project}
+        ]
+    },
+
+    {
+        position: [37.575478, -111.492440],
+        title: "",
+        contents: "",
+        type: [
+            {"year": 2006, "type": markerTypes.project}
+        ]
+    },
+
+    {
+        position: [38.575478, -111.492440],
+        title: "",
+        contents: "",
+        type: [
+            {"year": 2006, "type": markerTypes.project}
+        ]
+    },
+
+    {
+        position: [35.572478, -116.492440],
+        title: "",
+        contents: "",
+        type: [
+            {"year": 2006, "type": markerTypes.project}
+        ]
+    },
+
 ];
 
 /*
