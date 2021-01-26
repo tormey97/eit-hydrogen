@@ -10,7 +10,8 @@ import methane6 from "../assets/gifs/methane6.gif"
 import electrolysis1 from "../assets/gifs/electrolysis1.gif"
 import electrolysis2 from "../assets/gifs/electrolysis2.gif"
 import electrolysis3 from "../assets/gifs/electrolysis3.gif"
-
+import hydrogen1 from "../assets/hydrogen1.png"
+import hydrogen2 from "../assets/hydrogen2.png"
 import MapDialog from "./MapDialog";
 import makeStyles from "@material-ui/core/styles/makeStyles";
 import Divider from "@material-ui/core/Divider/Divider";
@@ -18,6 +19,11 @@ import Pagination from "@material-ui/lab/Pagination/Pagination";
 import PaginationItem from "@material-ui/lab/PaginationItem/PaginationItem";
 import EducationalGif from "./EducationalGif";
 import Paper from "@material-ui/core/Paper/Paper";
+import createMuiTheme from "@material-ui/core/styles/createMuiTheme";
+import { ThemeProvider } from '@material-ui/core/styles'
+import purple from "@material-ui/core/colors/purple";
+import green from "@material-ui/core/colors/green";
+import {MuiThemeProvider} from "@material-ui/core";
 
 let useStyles = makeStyles(theme => ({
     "textContainer": {
@@ -29,7 +35,15 @@ let useStyles = makeStyles(theme => ({
         "display": "block",
         "margin-left": "auto",
         "margin-right": "auto"
-    }
+    },
+
+    "image": {
+        "width": "auto",
+        "height": 200,
+        "display": "block",
+        "margin-left": "auto",
+        "margin-right": "auto"
+    },
 }));
 
 const electrolysisPages = [
@@ -82,71 +96,82 @@ const reformationPages = [
 
 ];
 
+const theme = createMuiTheme({
+    typography: {
+        fontSize: 15,
+        fontWeight: 500,
+    },
+});
 function IntroductionPage({t}) {
     const classes = useStyles();
     return (
-        <div align="left" className={classes.textContainer}>
+        <MuiThemeProvider theme={theme}>
 
-            <Typography variant={"h5"} gutterBottom>
-                {t("titles.page_title")}
-            </Typography>
-            <Divider/>
-            <Typography variant={"h6"} gutterBottom>
-                The Hydrogen Atom
-            </Typography>
-            <Typography gutterBottom>
-                Hydrogen is the first atom appearing in the periodic system. Hence, the lightest of the elements.
-                The figure below shows the composition of hydrogen. It consists of one proton and an unpaired electron.
-                As a result of the unpaired electron, the hydrogen atom is rarely found because the unpaired electron
-                aspires to pair up with an additional electron.
-            </Typography>
-            <Typography>
-            Two hydrogen atoms may form the hydrogen molecule H<sub>2</sub> as seen below. H<sub>2</sub>is a gas under
-                standard temperature and pressure, and is the smallest molecule found in the universe. Because of its light
-                weight, it is a desirable in terms of transport.
-            </Typography>
+            <div align="left" className={classes.textContainer}>
+                    <Typography variant={"h5"} gutterBottom>
+                        {t("titles.page_title")}
+                    </Typography>
+                    <Divider/>
+                    <Typography variant={"h6"} gutterBottom>
+                        The Hydrogen Atom
+                    </Typography>
+                    <Typography gutterBottom>
+                        Hydrogen is the first atom appearing in the periodic system. Hence, the lightest of the elements.
+                        The figure below shows the composition of hydrogen. It consists of one proton and an unpaired electron.
+                        As a result of the unpaired electron, the hydrogen atom is rarely found because the unpaired electron
+                        aspires to pair up with an additional electron.
+                    </Typography>
+                    <img src={hydrogen1} className={classes.image}/>
+                    <Typography>
+                    Two hydrogen atoms may form the hydrogen molecule H<sub>2</sub> as seen below. H<sub>2</sub>is a gas under
+                        standard temperature and pressure, and is the smallest molecule found in the universe. Because of its light
+                        weight, it is a desirable in terms of transport.
+                    </Typography>
+                    <img src={hydrogen2} className={classes.image}/>
+
+                    <Typography variant={"h6"} gutterBottom>
+                        Hydrogen as an Energy Carrier
+                    </Typography>
+
+                    <Typography gutterBottom>
+                       An energy carrier is an energy resource that can transport energy from one place to another.
+                        It requires more energy to produce hydrogen than what can be used in terms of converting it back to useful energy.
+                        However, the energy content per unit weight of the hydrogen makes it desirable in several aspects.
+                        Today’s research show that hydrogen can be used as an energy carrier in several sectors including transport,
+                        energy storage, industry, power generation and heating. There are three ways in which hydrogen can be stored.
+                        As a compressed gas in high pressure tanks, as a liquid in tanks or cooling unit (below -253C) or it
+                        can be stored in solid form by reacting with metals or other chemical compounds. The largest concern
+                        with the gas is the fire and explosion hazards associated with it. The gas is tasteless, odorless and
+                        nontoxic and makes it hard to detect leaks.
 
 
-            <Typography variant={"h6"} gutterBottom>
-                Hydrogen as an Energy Carrier
-            </Typography>
-            <Typography gutterBottom>
-               An energy carrier is an energy resource that can transport energy from one place to another.
-                It requires more energy to produce hydrogen than what can be used in terms of converting it back to useful energy.
-                However, the energy content per unit weight of the hydrogen makes it desirable in several aspects.
-                Today’s research show that hydrogen can be used as an energy carrier in several sectors including transport,
-                energy storage, industry, power generation and heating. There are three ways in which hydrogen can be stored.
-                As a compressed gas in high pressure tanks, as a liquid in tanks or cooling unit (below -253C) or it
-                can be stored in solid form by reacting with metals or other chemical compounds. The largest concern
-                with the gas is the fire and explosion hazards associated with it. The gas is tasteless, odorless and
-                nontoxic and makes it hard to detect leaks.
+                    </Typography>
 
+                    <Typography variant={"h5"} gutterBottom>
+                        Production of Hydrogen
+                    </Typography>
+                    <Divider/>
+                    <Typography gutterBottom>
+                        Hydrogen is produced using various methods. Here we will give an introduction to the most commonly used techniques. Scroll through the pages
+                        in the boxes below to see the step-by-step walkthrough of each process.
+                    </Typography>
 
-            </Typography>
+                    <Paper className={classes.animationContainer}>
+                        <Typography variant={"h6"} gutterBottom>
+                            Electrolysis
+                        </Typography>
+                        <EducationalGif pages={electrolysisPages}/>
+                    </Paper>
+                    <br/>
+                    <Paper className={classes.animationContainer}>
+                        <Typography variant={"h6"} gutterBottom>
+                            Natural gas reformation
+                        </Typography>
+                        <EducationalGif pages={reformationPages}/>
+                    </Paper>
+            </div>
+        </MuiThemeProvider>
 
-            <Typography variant={"h5"} gutterBottom>
-                Production of Hydrogen
-            </Typography>
-            <Divider/>
-            <Typography gutterBottom>
-                Hydrogen is produced using various methods. Here we will give an introduction to the most commonly used techniques. Scroll through the pages
-                in the boxes below to see the step-by-step walkthrough of each process.
-            </Typography>
-
-            <Paper className={classes.animationContainer}>
-                <Typography variant={"h6"} gutterBottom>
-                    Electrolysis
-                </Typography>
-                <EducationalGif pages={electrolysisPages}/>
-            </Paper>
-            <br/>
-            <Paper className={classes.animationContainer}>
-                <Typography variant={"h6"} gutterBottom>
-                    Natural gas reformation
-                </Typography>
-                <EducationalGif pages={reformationPages}/>
-            </Paper>
-        </div>
     );
 }
 
