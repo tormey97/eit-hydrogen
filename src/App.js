@@ -15,6 +15,7 @@ import IntroductionPage from "./components/IntroductionPage";
 import NavBar from "./components/NavBar";
 import WorldMap from "./components/WorldMap";
 import makeStyles from "@material-ui/core/styles/makeStyles";
+import HouseIllustration from "./components/HouseIllustration";
 
 const theme = createMuiTheme({
     palette: {
@@ -43,7 +44,7 @@ function App({ t }) {
                         </div>
                     </Route>
                     <Route path={process.env.PUBLIC_URL + "/house"}>
-                        fint hus
+                        <HouseIllustration/>
                     </Route>
                     <Route path={process.env.PUBLIC_URL + "/"}>
                         <IntroductionPage/>
