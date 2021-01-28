@@ -21,7 +21,8 @@ const styles = theme => ({
         position: "relative",
         boxShadow: "none",
         borderBottom: `1px solid ${theme.palette.grey["100"]}`,
-        backgroundColor: "white"
+        backgroundColor: "white",
+        zIndex: 10000,
     },
     inline: {
         display: "inline"
@@ -40,7 +41,7 @@ const styles = theme => ({
     },
     productLogo: {
         display: "inline-block",
-        borderLeft: `1px solid ${theme.palette.grey["A100"]}`,
+       // borderLeft: `1px solid ${theme.palette.grey["A100"]}`,
         marginLeft: 32,
         paddingLeft: 24,
         [theme.breakpoints.up("md")]: {
@@ -108,6 +109,9 @@ class Topbar extends Component {
         if (this.props.currentPath === "/house") {
             return 2;
         }
+        if (this.props.currentPath === "/interviews") {
+            return 3;
+        }
     };
 
     render() {
@@ -116,7 +120,7 @@ class Topbar extends Component {
         return (
             <AppBar position="absolute" color="default" className={classes.appBar}>
                 <Toolbar>
-                    <Grid container spacing={10} alignItems="baseline">
+                    <Grid container spacing={0} alignItems="baseline">
                         <Grid item xs={12} className={classes.flex}>
                             <div className={classes.inline}>
                                 <Typography variant="h6" color="inherit" noWrap>

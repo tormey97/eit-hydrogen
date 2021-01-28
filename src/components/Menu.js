@@ -11,6 +11,10 @@ const Menu = [
         label: "House of the future",
         pathname: process.env.PUBLIC_URL + "/house"
     },
+    {
+        label: "Expert interviews",
+        pathname: process.env.PUBLIC_URL + "/interviews"
+    },
 ];
 
 export default Menu;

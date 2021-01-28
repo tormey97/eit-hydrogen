@@ -16,6 +16,7 @@ import NavBar from "./components/NavBar";
 import WorldMap from "./components/WorldMap";
 import makeStyles from "@material-ui/core/styles/makeStyles";
 import HouseIllustration from "./components/HouseIllustration";
+import InterviewPage from "./components/InterviewPage";
 
 const theme = createMuiTheme({
     palette: {
@@ -26,15 +27,21 @@ const theme = createMuiTheme({
 
 const useStyles = makeStyles(theme => ({
     mapContainer: {
-        height: "480px",
+        flex: "10 0 0",
+        height: "100%",
         backgroundColor: "#000"
+    },
+    app: {
+        display: "flex",
+        flexDirection: "column",
+        height: "100%",
     }
 }));
 
 function App({ t }) {
     const classes = useStyles();
   return (
-    <div className="App">
+    <div className={classes.app}>
             <Router>
             <NavBar/>
                 <Switch>
@@ -45,6 +52,9 @@ function App({ t }) {
                     </Route>
                     <Route path={process.env.PUBLIC_URL + "/house"}>
                         <HouseIllustration/>
+                    </Route>
+                    <Route path={process.env.PUBLIC_URL + "/interviews"}>
+                        <InterviewPage/>
                     </Route>
                     <Route path={process.env.PUBLIC_URL + "/"}>
                         <IntroductionPage/>
