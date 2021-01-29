@@ -5,7 +5,7 @@ const interviews = [
     {
         title: "Interview with Magnus Korpås",
         contents: (<>
-            <Typography variant={"bold"}>
+            <Typography style={{fontWeight: 500}}>
             In which application could hydrogen as an energy source be most beneficial?
             </Typography>
             <Typography>
@@ -28,7 +28,7 @@ const interviews = [
             this is also possible for hydrogen, either in fuel cells or in different types of combustion processes.
             There are some other applications as well, but these two came to my mind.
             </Typography>
-            <Typography>
+            <Typography style={{fontWeight: 500}}>
             What are some of the greatest disadvantages with the use of hydrogen?
             </Typography>
             <Typography>
@@ -49,7 +49,9 @@ const interviews = [
             we can compare it with, such as solar panels, wind turbines, batteries, mobile phones, all types of
             energy-related technologies. So, it’s still a bit of a “fuel of the future”. These are the main disadvantages.
             </Typography>
+            <Typography style={{fontWeight: 500}}>
             What other alternatives are better suited as a sustainable energy source, and why?
+            </Typography>
             <Typography>
             I would not say that there are any energy sources or energy carriers that are better as a
             “one solution fits all” than others. My research has always shown that there is a mix of different sources
@@ -69,7 +71,9 @@ const interviews = [
             consists of several energy sources on the one side and several end uses on the other side. So, hydrogen
             as a concept is very attractive due to its flexibility.
             </Typography>
+            <Typography style={{fontWeight: 500}}>
             In which parts of the world does hydrogen have the greatest potential for usage as an energy source?
+            </Typography>
             <Typography>
             Great question – we cannot conclude on that at the moment. I have been working a lot with hydrogen in
             combination with renewables. You can say – one great potential could be to utilize electricity sources
@@ -95,7 +99,7 @@ const interviews = [
             but it’s not permitted to have gasoline engines in Tokyo, so they already have a big natural gas supply system.
             So, Japan also should be a very interesting market for hydrogen end use.
             </Typography>
-            <Typography>
+            <Typography style={{fontWeight: 500}}>
             In the future, how do you think hydrogen will be used in smaller scale applications such as residences
             vehicles etc.?
             </Typography>
@@ -109,7 +113,7 @@ const interviews = [
             so you just make a charger. The same goes for hydrogen from electrolysis – you can build an electrolysis
             station at the gas station and then you have hydrogen for the cars. So, I think that is not that difficult.
             </Typography>
-            <Typography>
+            <Typography style={{fontWeight: 500}}>
             What about in larger-scale environments such as big cities, large transport networks air travel shipping etc.
             </Typography>
             <Typography>
@@ -121,7 +125,7 @@ const interviews = [
             that, because this is one of the things about hydrogen that I don’t know anything about the feasibility of.
             That would just be pure speculation.
             </Typography>
-            <Typography>
+            <Typography style={{fontWeight: 500}}>
             How large will the potential in extracting hydrogen from surplus energy in solar panels and wind turbines
             be? Does it require a tradeoff between producing power and hydrogen, or will the surplus energy be sufficient?
             </Typography>
@@ -140,7 +144,7 @@ const interviews = [
             some flexibility in the hydrogen production so that you can produce a little bit more when the wind is high
             than when the wind is low. Come back to that with Espen – he should answer that question in a nice way.
             </Typography>
-            <Typography>
+            <Typography style={{fontWeight: 500}}>
             How big of an impact will the use of electrical vehicles have on the power system? Is it possible that hydro
             vehicles can be a better option to support the rated powers of the components in the power system?
             </Typography>
@@ -159,7 +163,7 @@ const interviews = [
             about that recently, should be able to expand a bit on that question.
             </Typography>
 
-            <Typography>
+            <Typography style={{fontWeight: 500}}>
             How can hydrogen provide heat to a building, and how does this work?
             </Typography>
             <Typography>
@@ -176,7 +180,7 @@ const interviews = [
             heat, but I think as a combination with power.
             </Typography>
 
-<Typography>
+<Typography style={{fontWeight: 500}}>
             Sources suggest that the use of hydrogen as a heat-provider for buildings has a larger potential in countries
             where there is the possibility of using existing LNG infrastructure. In other countries where there is a
             high level of established infrastructure for electrical heating, using hydrogen for heating purposes will
@@ -193,20 +197,22 @@ const interviews = [
             fuel cell and in a combustion engine, but heat was not used in the demo project. And that would be
             beneficial from a total energy efficiency and probably economic point of view.
 </Typography>
-            <Typography>
+            <Typography style={{fontWeight: 500}}>
 
             Will the use of hydrogen as a heating source mainly be relevant in large scale projects like office and
             public buildings, or can it have a sufficient potential in a private context, for example in a residential unit?
             </Typography>
+            <Typography>
+
             I think it’s more ready – easier to integrate in larger buildings. I also think it’s easier to get
             agreements to test out there. So, it’s not either or – it’s like office and public buildings first, and then
             if it works there, the step to residential buildings is – there is a shorter step to there. You don’t
             jump over the office to get to the residential unit – I think that if we succeed with the larger buildings
             then it’s easier to take the technology in use in residential units. And maybe there are some good demo
             examples maybe in office and public buildings from what I know.
+            </Typography>
 
-
-            <Typography>
+            <Typography style={{fontWeight: 500}}>
 
             Does hydrogen as an energy source have other usage areas within a building other than heating?
             </Typography>
@@ -218,7 +224,7 @@ const interviews = [
             purposes right?
 
             </Typography>
-            <Typography>
+            <Typography style={{fontWeight: 500}}>
 
 
             Could hydrogen fuel cells be used in an environment independent of large networks, such as in a private
@@ -239,7 +245,7 @@ const interviews = [
             efficient if you utilize the heat in addition.
             </Typography>
 
-            <Typography>
+            <Typography style={{fontWeight: 500}}>
 
             What are some of the disadvantages of the use of hydrogen as a power and heat provider in buildings?
             </Typography>
@@ -258,7 +264,7 @@ const interviews = [
             get acceptance.
 
             </Typography>
-            <Typography>
+            <Typography style={{fontWeight: 500}}>
             Despite all the research and media coverage of hydrogen as an energy source, it is still not that commonly
             used. Why is hydrogen energy not more prevalent today? What is required for this to happen?
             </Typography>
@@ -275,17 +281,19 @@ const interviews = [
             solved more easily. Because then you have proved ok, we have an end use application and those applications
             are there, and the rest of the chain can come after. I think fuel cells are the key.
             </Typography>
-            <Typography>
+            <Typography style={{fontWeight: 500}}>
             What is the possible cost-advantages or disadvantages of using hydrogen compared to fossil fuel and other
             renewable energy sources? If hydrogen is the most expensive, what action will be required to reduce costs
             so that hydrogen can become competitive?
             </Typography>
+            <Typography>
             Yeah – so here again it is the fuel cell technology. If we get a breakthrough in fuel cell technology
             like we did lithium-iron batteries and solar cells, then hydrogen can be affordable as an alternative.
             Again, Espen’s research has shown that it is possible to produce hydrogen and deliver it at competitive
             prices in an energy system. But you need to have the end use in place. So, it’s possible to produce at a
             reasonable cost and deliver, so we need the fuel cells to work properly.
-            <Typography>
+            </Typography>
+            <Typography style={{fontWeight: 500}}>
             Will use of hydrogen at the consumer level (i.e. Private transportations and heating) reduce the expenses
             at any level for the consumer?
             </Typography>
@@ -298,8 +306,246 @@ const interviews = [
         </>)
     },
     {
-        title: "Interview with other",
-        contents: "Interview"
+        title: "Interview with Espen Flo Bødal",
+        contents: (<>
+            <Typography style={{fontWeight: 500}}>
+
+            In which application could hydrogen as an energy source be most beneficial?
+            </Typography>
+
+            <Typography>
+
+I think hydrogen is going to be most useful in applications were the use of hydrogen in itself  bring some benefits
+            because of the properties of hydrogen and some beneficial properties of hydrogen is for example like
+            lightweight, so it is lightweight pr. unit of energy.
+
+            Then you can think of fabrications such as airplanes, or drones or those types of applications were weight
+            is limiting. This can also be like on ships or trucks, because sometimes the weights is limiting on for
+            example trucks  when they driving over bridges and stuff then it can be very limiting if they
+            use batteries and it can limit what kind of payload they can haul.
+
+
+            And also, Hydrogen is beneficial if you need large volumes of energy or large amounts of energy.
+            Then you can think of applications such as ships.
+
+
+</Typography>
+            <Typography style={{fontWeight: 500}}>
+
+            What are some of the greatest disadvantages with the use of hydrogen?
+
+            </Typography>
+            <Typography>
+
+            One of the main disadvantages if you use it for electricity storage it has a large loss, so quite low
+            round trip efficiency. So, you will lose maybe the half of the energy and compared to one of the main
+            alternatives which are batteries.  This is quite a lot. That’s maybe the main disadvantages. It can also
+            be safety issues because it ignites very easily if it is trapped in a confined aera, but if it has
+            ventilation to air It also dissolves very easily. It requires the proper safety engineering.
+
+            </Typography>
+            <Typography style={{fontWeight: 500}}>
+
+            How do hydrogen fuel cells work?
+
+
+</Typography>
+            <Typography>
+
+            When you produce hydrogen from electricity you do something that’s called electrolysis, so you apply
+            electric current to water, and you have some membranes that only conducts some type of ions. As a result of these
+            process you produce hydrogen and oxygen. And in a fuel cell is kind of the other way around. You put in
+            hydrogen and oxygen and then you get electricity out of that. So, you have membranes that are leading
+            one type of ion which forces the electricity around the circuit.
+
+            </Typography>
+            <Typography style={{fontWeight: 500}}>
+
+            In which part of the world is hydrogen usage most prevalent? Are there any parts of the world where
+            significant progress is being made? In which parts of the world does hydrogen have the greatest potential for
+            usage as an energy source?
+
+            </Typography>
+            <Typography>
+
+
+            It can be everywhere.  Probably for different applications based on the location,
+            maybe in aeras were you have a lot of production you can have a lot of hydrogen production as well
+            to complement renewables and  facilitate integrations of renewables, but then in aeras were  you have
+            a lot of energy deficit you can have hydrogen usage for example. Then you can also use it for transports
+            everywhere. I think in the future it would be everywhere.
+
+            There's a lot of examples. in the Netherlands they are is starting to produce hydrogen in proximity
+            to some of the chemical plants they have because they use hydrogen and, in the production, or in the
+            chemical production process. They have used hydrogen in those processes for a while but now they are
+            also starting to use it from electricity where they previously used natural gas and I also know that
+            they have for example in the port of Amsterdam they are using hydrogen for different applications. In
+            Germany for example they're running trains on hydrogen and there's many places around the world where
+            they're running buses on hydrogen and you can take California as an example there they have a decent
+            amount of hydrogen fueled cars as well and in Japan they also have some had some hydrogen cars and
+            they're very interested in hydrogen as an energy carrier. There’re many more examples of hydrogen usage.
+
+            So, first of all hydrogen is an energy carrier not an energy source so you should compare it to
+            electricity instead of. You shouldn't say energy source. So, we're it has the greatest potential
+            (relatert til siste halvdel av spørsmålet over) I think this goes into what I said before it has
+            potential everywhere so I think it's very dependent on the CO2 price and this CO2 prices reflects
+            how intensely do you want to get rid of CO2 and I think it's going to be very important when you get
+            a little bit further decarbonization so when you get a higher shares of renewables and you start to
+            handle the emitting sources that are hard to decarbonize then hydrogen can be very important.
+            </Typography>
+
+
+
+
+            <Typography style={{fontWeight: 500}}>
+
+            In the future, how do you think hydrogen will be used in smaller scale application, such as in private
+            residences, vehicle’s etc.? What about in larger scale environments, such as in cities, larger transport
+            networks (shipping, air-travel) etc.?
+            </Typography>
+            <Typography>
+
+            So for vehicles I think it will start with the more heavy applications such as trucks or ships but then
+            it might also be used to some extent for private vehicles but I think batteries are probably going to
+            dominate that market quite a bit and for residences you might see some type of combined heat and power
+            production where you can produce electricity but then you can also get some heat from the fuel cell
+            and this can be like a way of maybe increasing the efficiency of fuel cell because as a lot of the
+            losses in the form of heat so if you actually can utilize the heat you would also increase the
+            efficiency. They do this for natural gas in CHP plants, but it can also be done for hydrogen,
+            I think. They're also looking at how you can use hydrogen in relation to district heating networks
+            and stuff like that.
+
+            </Typography>
+            <Typography style={{fontWeight: 500}}>
+
+            What about in larger scale environments, such as in cities, larger transport networks (shipping,
+            air-travel) etc.?
+            </Typography>
+            <Typography>
+
+            This is this is probably the scale where hydrogen is going to be most useful, I think when you're
+            talking about large quantities of energy. Because then batteries are struggling more when you talk
+            about large amounts of energy because it's expensive and then you start to move into areas, or something
+            called the sector coplin. We have a lot of renewables this sectors, then I am talking about heating,
+            electricity and hydrogen can be one of those sectors, natural gas can be one of those sectors they're going
+            to be more interconnected and when you look at the city they often have like heating networks natural gas
+            networks and electricity networks an and maybe you can in some cases you can feed hydrogen into the natural
+            gas network. You could produce hydrogen from electricity so you can use it to bridge all of these networks
+            and you can also use some of the heat for district heating. You can also imagine that you take some of the
+            natural gas networks and convert them completely to hydrogen. These kinds of networks are very common in
+            Europe and in UK for example
+
+            </Typography>
+
+
+
+            <Typography style={{fontWeight: 500}}>
+
+
+            How will the use of hydrogen as a spare battery within the power grid be used? Will it speed up the process
+            of aligning consumption and production?
+            </Typography>
+            <Typography>
+
+
+            I think it would be used to balance out the fluctuations in renewable energy production so when you have a
+            lot of renewable energy production you can produce hydrogen. If you can use it for hydrogen specific end use
+            it's the best. Then you don't regenerate it to electricity to the grid but you use it maybe in mobile
+            applications or something like that but you can also regenerate it to electricity and feed it into the grid
+            via
+            turbines or fuel cells but then you need a big variation in electricity price to make it profitable because
+            you have so much losses. The best case is if you can have some kind of flexible demand that's only
+            withdrawing energy from the electricity system and then you use it for the end users to decarbonize the
+            things that you
+            can only do with hydrogen
+
+            If you think about solar energy, then batteries are probably very well suited but for example for wind
+            energy or seasonal variations then you need something like hydrogen because batteries are way too expensive
+            for storing energy over such a long time. Batteries are better for day-to-day or some days like 1 - 3 days
+            maybe but not much more than that. Hydrogen can store it for four weeks so it's going to be very important
+            when the share of renewable energy is getting very high. When is when you're reaching like 60, 70, 80% it is
+            going to be crucial.
+            </Typography>
+            <Typography style={{fontWeight: 500}}>
+
+            How large will the potential in extracting hydrogen from surplus energy in solar panels and wind turbines
+            be? Does it require a trade-off between producing power and hydrogen, or will the surplus energy be
+            sufficient?
+            </Typography>
+
+            <Typography>
+
+            Yeah so it's going to be dependent on the penetration of this renewables because if you can use the
+            electricity directly without going via hydrogen its better because of the efficiency but in the end when the
+            penetration is large enough you would have to go through hydrogen because of supply is not matching demand
+            and batteries are too expensive so then you need I think I've said some of this before
+
+            In general you would use you would produce most of the hydrogen during surplus periods, but it's also
+            beneficial to be able to produce hydrogen when it's not a surplus as well, it depends on what kind of
+            hydrogen demand you have do you need to deliver hydrogen all the time or are you just using it for any
+            storage for the grid. In general, you will be producing when there is a surplus because it's cheaper
+            </Typography>
+            <Typography style={{fontWeight: 500}}>
+
+            How big of an impact will the use of electrical vehicles have on the power system? Is there a possibility
+            that hydrogen-driven vehicles can be a better option to support the rated powers of the components in the
+            power system?
+            </Typography>
+            <Typography>
+
+            it's hard to answer but when you think about electric vehicles supporting the power system they can have an impact for sure but, you also have to think about  the degradation of the batteries of the vehicle themselves so the costs might be a bit high. For hydrogen what kind of end use you have it's not that important. I think it's more that you have some use for hydrogen and you won’t store the energy in the car some self as you do with the EV`s. Then you store energy in the cars themselves and the batteries but for hydrogen vehicles I think you would store it at the pump maybe in some storage tanks and degradation is much less of an issue it's more the energy loss. if it's a given that you're going to use hydrogen vehicles it can deliver a lot of flexibility at a low costs but you have to think about the energy losses too so it's a hard question so it might it might require some more research actually
+            </Typography>
+            <Typography style={{fontWeight: 500}}>
+
+            Sources suggest that the use of hydrogen as a heat-provider for buildings has a larger potential in countries where there is the possibility of using existing LNG infrastructure. In other countries where there is a high level of established infrastructure for electrical heating, using hydrogen for heating purposes will require a higher initial investment. Therefor the integration of hydrogen energy might not be as relevant in these countries. What is your opinion on this?
+            </Typography>
+            <Typography>
+
+            I think hydrogen will be relevant everywhere but for heating of houses, if you only think of that end use it's probably better if you already have the district heating infrastructure or the natural gas infrastructure. You have pipelines of either lots water or natural gas going to the houses. I think you can probably make more efficient use of the hydrogen for heating. Using it like having a fuel cell or something in everyone's every single house or a hydrogen boiler or something is going to be very expensive so it’s always an advantage to have some already existing infrastructure. I think you have to probably make some upgrades to the existing infrastructure at least if you're going to supplement natural gas for hydrogen. For heating you just use it as a heat source, you're not transporting the hydrogen itself so it’s probably very directly applicable to district heating networks.
+
+            I heard that you said LNG but maybe you meant district heating I don't know
+
+            Natural gas distribution infrastructure. LNG is liquefied natural gas so it's is more like ships transporting liquid.
+            </Typography>
+            <Typography style={{fontWeight: 500}}>
+
+
+            Could hydrogen fuel cells be used in an environment independent of a larger network, such as in a private residence, to supply electricity? Would it be economically viable? Would it be efficient compared to other available alternatives?
+            </Typography>
+
+            <Typography>
+
+            Yeah it could but it would be very expensive. Then it's probably better if you have a local energy production like solar and you can use batteries is probably much cheaper solution. This is quite common for houses nowadays and it's been coming for like cabins and stuff for a while but in places where you don't have that much sunshine then you can imagine using hydrogen instead of batteries, because you can store it over longer periods so you can produce maybe hydrogen in the summer and then you have electricity in the winter. I don't know if it was Telenor or Telia or something, but they have some mobile base station that they need to power somewhere in the mountains in western Norway I think, and then they're actually using hydrogen fuel cells to power those mobile base stations. Because batteries are not sufficient because you can have long periods where you have too little sunshine, so they also had the solar panels on these base stations so it's cheaper than connecting them to the electrical grid
+
+            Yeah so it's very dependent on the situation but especially for like remote areas or areas that are weakly connected to the electricity grid it can be cheaper, it depends on the alternative so it can be cheaper than building transmission lines maybe in some cases and dependent on the energy source can in some cases be cheaper than batteries. So, it's dependent on both location and energy source.
+
+            It might not always be the most energy efficient alternative, because you have quite some losses but in some cases, it might be the only alternative because of the costs. So, you have to weigh energy efficiency against the costs and if you need heat as well it might improve the case. You have to do accounting on many fronts cut off both efficiency costs energy sources energy requirements so it's very case dependent I would say
+            </Typography>
+            <Typography style={{fontWeight: 500}}>
+
+            Despite all the research and media coverage of hydrogen as energy carrier, it is still not that commonly used. Why is hydrogen energy not more prevalent today? What is required for this to happen?
+            </Typography>
+            <Typography>
+
+            Yeah it's been a hot topic many times before so it typically goes like every 10 years there's a lot of excitement around hydrogen and then it dies down a little bit and then it comes back but I think a lot of the reason why it's hasn't happened before now it's first of all it's the capital costs so it's the cost of the electrolyzers and the fuel cells. You need something to get it started so to reduce the costs of producing these types of equipment’s and then you also need the cheap energy, so this is the operating costs. You need cheap renewables and I think like now both of those pieces are in place you got the renewable so much cheaper than they were just ten years ago and also the costs of the hydrogen equipment is also dropping very fast. So, both of these things are very important for seeing utilization of hydrogen. It’s probably famous last words but this might be the time where it actually happens
+            </Typography>
+            <Typography style={{fontWeight: 500}}>
+
+            What are the possible cost advantages or disadvantages of using hydrogen compared to fossil fuel and other renewable energy sources? If hydrogen is the most expensive, what action will be required to reduce costs so that hydrogen can become more competitive?
+            </Typography>
+            <Typography>
+
+            Yeah so, I kind of mentioned some of this already. First of all, hydrogen is not the energy sources its an energy carrier. So, you can't really compare it to fossil fuel or fossil sources or renewable sources. Hydrogen is very useful in complementing renewable energy sources and because of the variability and sometimes you have almost electricity for free and then losses don't matter that much anymore if you get it for free and what will be required to reducing the costs. I just said some of the things it's the capital cost of the hydrogen equipment as it's going down and it is, and the operating costs and I think for electrolyzers you have 70 high 70s to 80% of the cost of producing hydrogen is related to the electricity price so when you get a lot of cheap renewables when it's cheaper to build solar panels and wind farms electricity prices is going to go down at least and it's going to go a lot down in some periods when you have excess energy and then it's going to be really cheap or a lot cheaper to produce hydrogen so like yeah renewables is a key driver and the investment costs of the hydrogen equivalents
+            </Typography>
+            <Typography style={{fontWeight: 500}}>
+
+            Will the use of hydrogen at a consumer level (ie private transportation and heating) reduce expenses at any level for the consumer?
+            </Typography>
+            <Typography>
+
+            Yeah so, I think this is kind of related to economy of scale maybe. So, now it's still quite early in the deployment of electric hydrogen equipment so it's kind of expensive. It's much cheaper than it used to be, but it has potential to be much cheaper. I can take one example is that until now the electrolyzers, so the equipment used to produce hydrogen from electricity. it's been made by hand in Norway. We have very high labor costs so it's going to be very expensive equipment but now they are actually automating this process of producing the electrolyzers. Its driving down the costs a lot but then again, they are really dependent on some people that want their electrolyzers to have to supply at some volume in order to make the automation profitable. The level of consumption it's key to driving down the investment costs and then also the cost of hydrogen. That's one part of the equation. Then you also have the renewable energy part and that's not very independent from the use of hydrogen you can have a lot of renewable energy without having any hydrogen but still when you have more and more renewable energy hydrogen is going to be cheaper anyway. So, you have some parts that's dependent on the hydrogen consumption and you have some parts that are independent.
+            </Typography>
+        </>)
     }
 ];
 
