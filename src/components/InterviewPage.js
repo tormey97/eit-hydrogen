@@ -14,7 +14,7 @@ let useStyles = makeStyles(theme => ({
     "container": {
         display: "flex",
         flex: "0.15 1 0",
-        backgroundColor: "#EEE",
+        backgroundColor: "#EFEFEF",
         height: "100%",
     },
 
@@ -22,6 +22,7 @@ let useStyles = makeStyles(theme => ({
         flex: 1,
         overflowY: "auto",
         height: "100%",
+        paddingLeft: 10,
 
     },
     "page": {
