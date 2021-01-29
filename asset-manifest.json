@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/eit-hydrogen/static/css/main.5c7b6f2c.chunk.css",
-    "main.js": "/eit-hydrogen/static/js/main.0aeab4ec.chunk.js",
-    "main.js.map": "/eit-hydrogen/static/js/main.0aeab4ec.chunk.js.map",
+    "main.js": "/eit-hydrogen/static/js/main.cb7a2d9a.chunk.js",
+    "main.js.map": "/eit-hydrogen/static/js/main.cb7a2d9a.chunk.js.map",
     "runtime-main.js": "/eit-hydrogen/static/js/runtime-main.2a4a8c63.js",
     "runtime-main.js.map": "/eit-hydrogen/static/js/runtime-main.2a4a8c63.js.map",
-    "static/js/2.7f8f93f5.chunk.js": "/eit-hydrogen/static/js/2.7f8f93f5.chunk.js",
-    "static/js/2.7f8f93f5.chunk.js.map": "/eit-hydrogen/static/js/2.7f8f93f5.chunk.js.map",
+    "static/js/2.0978e16d.chunk.js": "/eit-hydrogen/static/js/2.0978e16d.chunk.js",
+    "static/js/2.0978e16d.chunk.js.map": "/eit-hydrogen/static/js/2.0978e16d.chunk.js.map",
     "static/js/3.24929aaa.chunk.js": "/eit-hydrogen/static/js/3.24929aaa.chunk.js",
     "static/js/3.24929aaa.chunk.js.map": "/eit-hydrogen/static/js/3.24929aaa.chunk.js.map",
     "index.html": "/eit-hydrogen/index.html",
     "static/css/main.5c7b6f2c.chunk.css.map": "/eit-hydrogen/static/css/main.5c7b6f2c.chunk.css.map",
-    "static/js/2.7f8f93f5.chunk.js.LICENSE.txt": "/eit-hydrogen/static/js/2.7f8f93f5.chunk.js.LICENSE.txt",
+    "static/js/2.0978e16d.chunk.js.LICENSE.txt": "/eit-hydrogen/static/js/2.0978e16d.chunk.js.LICENSE.txt",
     "static/media/bluedanubegreenhydro.0c853d0a.PNG": "/eit-hydrogen/static/media/bluedanubegreenhydro.0c853d0a.PNG",
     "static/media/electrolysis1.168e1334.gif": "/eit-hydrogen/static/media/electrolysis1.168e1334.gif",
     "static/media/electrolysis2.68bbd72d.gif": "/eit-hydrogen/static/media/electrolysis2.68bbd72d.gif",
@@ -28,8 +28,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.2a4a8c63.js",
-    "static/js/2.7f8f93f5.chunk.js",
+    "static/js/2.0978e16d.chunk.js",
     "static/css/main.5c7b6f2c.chunk.css",
-    "static/js/main.0aeab4ec.chunk.js"
+    "static/js/main.cb7a2d9a.chunk.js"
   ]
 }
