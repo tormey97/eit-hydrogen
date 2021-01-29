@@ -15,7 +15,7 @@ import ListItemText from "@material-ui/core/ListItemText";
 import SwipeableDrawer from "@material-ui/core/SwipeableDrawer";
 import { Link as MaterialLink } from "@material-ui/core";
 import Menu from "./Menu"
-
+import ntnulogo from "../assets/ntnulogo.png"
 const styles = theme => ({
     appBar: {
         position: "relative",
@@ -74,6 +74,10 @@ const styles = theme => ({
         paddingTop: 20,
         paddingBottom: 20,
         minWidth: "auto"
+    },
+    logo: {
+        width: 110,
+        height: "auto"
     }
 });
 
@@ -125,7 +129,7 @@ class Topbar extends Component {
                             <div className={classes.inline}>
                                 <Typography variant="h6" color="inherit" noWrap>
                                     <Link to="/" className={classes.link}>
-                                        <span className={classes.tagline}>NTNU-logo</span>
+                                        <span className={classes.tagline}><img className={classes.logo} src={ntnulogo}/></span>
                                     </Link>
                                 </Typography>
                             </div>
